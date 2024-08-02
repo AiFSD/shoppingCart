@@ -1,0 +1,120 @@
+.header{
+  background-color: rgba(245, 245, 245, 0.315);
+  display: flex;
+  gap:50px;
+  height: 60px;
+  font-size: xx-large;
+  align-items: center;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow: auto;
+  border:1px solid brown;
+  width:1323px ;
+  
+}
+.start{
+  margin-left: 50px;
+}
+.btn{
+  margin-left: 450px;
+  height: 40px;
+  width: 100px;
+  font-weight: bolder;
+}
+
+.three{
+  font-size: x-large;
+
+}
+.picture{
+  background-color:rgb(3, 32, 19);
+  height: 290px;
+  width: 100%;
+  border: solid black 1px;
+  
+}
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: white;
+}
+ .first{
+  height: 230px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black;
+  width: 278px;
+  margin: -33px;
+  
+  
+ }
+ .nameprice{
+  background-color: white;
+  width: fit-content;
+  padding-bottom: 15px;
+  border-radius: 10px ; 
+  font-size: x-large;
+  width: 280px;
+  border: solid black 1px;
+ 
+  
+  
+ }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  padding :50px;
+  text-align: center;
+  gap: 0px;
+  row-gap: 80px;
+ 
+  
+  }
+.bttn{
+  background-color: white;
+  box-shadow: black;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+
+}
+.bttn:hover {
+  background-color: #ff0000d5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.pic span:first-child {
+  font-size: 68px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.pic span:last-child {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+
+
